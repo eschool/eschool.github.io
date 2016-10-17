@@ -1,4 +1,6 @@
 //(function(){
 var current_url = window.location.host;
-alert(current_url);
+var uri = window.location.pathname;
+console.log("URL: " + current_url);
+console.log("URI: " + uri);
 //});
