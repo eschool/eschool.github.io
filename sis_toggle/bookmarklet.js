@@ -1,4 +1,4 @@
 //(function(){
-var curent_url = window.location.href;
+var current_url = window.location.href;
 alert(current_url);
 //});
