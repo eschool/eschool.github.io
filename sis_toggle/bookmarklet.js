@@ -1,4 +1,4 @@
 //(function(){
-var cuurent_url = window.location.href;
+var curent_url = window.location.href;
 alert(current_url);
 //});
