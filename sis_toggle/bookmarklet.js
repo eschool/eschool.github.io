@@ -6,11 +6,14 @@ var params = window.location.search.substring(1);
 //console.log("URL: " + current_url);// USED FOR TESTING
 //console.log("URI: " + uri);// USED FOR TESTING
 //console.log("Params: " + params);// USED FOR TESTING
+var new_url = "";
 switch (current_url) {
     case 'sis2.focuslearn.org':
-        window.location = protocol + "//sis2.dev" + uri + "?" + params;
+        new_url = "//sis2.dev";
     break;
     case 'sis2.dev':
-        window.location = protocol + "//sis2.focuslearn.org" + uri + "?" + params;
+        new_url = "//sis2.focuslearn.org";
     break;
 }
+
+window.location = protocol + new_url + uri + "?" + params;
