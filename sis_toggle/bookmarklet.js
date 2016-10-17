@@ -7,7 +7,7 @@ console.log("URI: " + uri);
 console.log("Params: " + params);
 switch (current_url) {
     case 'sis2.focuslearn.org':
-        window.location = window.location.protocol + "//sis2.dev" + uri +
+        window.location = window.location.protocol + "//sis2.dev" + uri + "";
     break;
     case 'sis2.dev':
 
